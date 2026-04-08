@@ -1,4 +1,4 @@
- import requests
+import requests
 import streamlit as st
 from anythingllm_client import query_anythingllm
 
