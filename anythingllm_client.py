@@ -5,7 +5,7 @@ import streamlit as st
 def query_anythingllm(message: str):
     BASE_URL = st.secrets["ANYTHINGLLM_BASE_URL"]
     API_KEY = st.secrets["ANYTHINGLLM_API_KEY"]
-    SLUG = st.secrets["ANYTHINGLLM_SLUG"]
+    SLUG = st.secrets["WORKSPACE_SLUG"]
 
     url = f"{BASE_URL}/api/v1/workspaces/{SLUG}/chat"
     headers = {
