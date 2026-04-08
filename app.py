@@ -4,7 +4,7 @@ from anythingllm_client import query_anythingllm
 
 
 def main():
-        st.set_page_config(page_title="UniGuide AI", layout="wide")
+    st.set_page_config(page_title="UniGuide AI", layout="wide")
 
     page = st.sidebar.radio("Navigation", ["Home", "Chat", "About"])
 
