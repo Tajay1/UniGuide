@@ -8,7 +8,7 @@ def main():
     st.write("🔍 Testing connection to AnythingLLM...")
 
     try:
-         r = requests.get("http://127.0.0.1:3001")
+        r = requests.get("http://127.0.0.1:3001")
         st.success(f"Connected! Status: {r.status_code}")
     except Exception as e:
         st.error(f"Connection failed: {e}")
